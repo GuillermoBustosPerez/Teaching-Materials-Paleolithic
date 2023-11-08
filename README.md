@@ -10,7 +10,7 @@ gráficos, esquemas, etc.) elaborados durante el curso académico
 la Penísnula Ibérica”* y *“Arqueología del Paleolítico y Mesolítico”*.
 
 El gruso de los materiales gráficoss pueden encontrarse en la carpeta
-[\*Images\*\*](Images)
+[**Images**](Images)
 
 # **Información de acceso y licencia**
 
