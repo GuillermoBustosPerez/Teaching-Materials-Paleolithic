@@ -1,8 +1,9 @@
+#### Load linbraries #####
 library(tidyverse); library(gsloid)
 
+#### O18 curve difference between Middle and upper Pleistocene ####
 mis_last_250ka <-
   LR04_MISboundaries %>% filter(LR04_Age_ka_start >= 11.7 & LR04_Age_ka_end <= 300)
-
 
 lisiecki2005 %>% filter(Time >= 11.7 & Time <= 300) %>% 
   mutate(Periodo = case_when(
