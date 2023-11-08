@@ -9,7 +9,7 @@ gráficos, esquemas, etc.) elaborados durante el curso académico
 2023-2024 con motivo de las asignaturas *“Prehistoria y Arqueología de
 la Penísnula Ibérica”* y *“Arqueología del Paleolítico y Mesolítico”*.
 
-El gruso de los materiales gráficoss pueden encontrarse en la carpeta
+El grueso de los materiales gráficoss pueden encontrarse en la carpeta
 [**Images**](Images)
 
 # **Información de acceso y licencia**
