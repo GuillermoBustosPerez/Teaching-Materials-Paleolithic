@@ -1,6 +1,6 @@
-# Información General (General information)
+# Información General (*General information*)
 
-*Text version of the information is provided below*
+*English version of the information is provided below*
 
 <div align="justify">
 
@@ -8,6 +8,13 @@ El presente repositorio proporciona un conjunto de imágenes (mapas,
 gráficos, esquemas, etc.) elaborados durante el curso académico
 2023-2024 con motivo de las asignaturas “Prehistoria y Arqueología de la
 Penísnula Ibérica” y “Arqueología del Paleolítico y Mesolítico”.
+
+# **Información de acceso y licencia**
+
+**License:**  
+Los datos y códigos se hacen disponibles bajo una licencia **Non
+Commercial 4.0 International (CC BY-NC 4.0)**.  
+Para más detalles ver el archivo [**License**](License.md).
 
 ### Información sobre los datos elaborados para la elaboración del material
 
