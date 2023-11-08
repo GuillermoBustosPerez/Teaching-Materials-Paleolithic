@@ -11,9 +11,10 @@ Penísnula Ibérica” y “Arqueología del Paleolítico y Mesolítico”.
 
 ### Información sobre los datos elaborados para la elaboración del material
 
-El paquete de R **tidyverse v2.0.0** (Wickham et al., 2019) se ha
-empleado para el procesado de la mayoría de los datos, mientras que
-**ggmap v.4.0.0** (Kahle and Wickham, 2013) ha sido empleado para el
+El paquete de R **tidyverse v2.0.0** ([Wickham et al.,
+2019](#ref-wickham_welcome_2019)) se ha empleado para el procesado de la
+mayoría de los datos, mientras que **ggmap v.4.0.0** ([Kahle and
+Wickham, 2013](#ref-kahle_ggmap_2013)) ha sido empleado para el
 desarrollo de la mayoría de los mapas.
 
 La base de datos **ROAD** se ha citado siempre que se ha empleado
