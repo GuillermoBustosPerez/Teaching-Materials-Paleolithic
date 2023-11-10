@@ -26,6 +26,9 @@ El paquete de R **tidyverse v2.0.0** ([Wickham et al.,
 mayoría de los datos, mientras que **ggmap v.4.0.0** ([Kahle and
 Wickham, 2013](#ref-kahle_ggmap_2013)) ha sido empleado para el
 desarrollo de la mayoría de los mapas.  
+Lisiecki and Raymo ([2005](#ref-lisiecki_pliocene-pleistocene_2005)) ha
+sido empleado para generar los gráficos de variación de O18 a lo largo
+del Cuaternario.  
 Spratt and Lisiecki ([2016](#ref-spratt_late_2016)) ha sido empleado
 para generar la curva de variaciones del nivel del mar.
 
@@ -51,6 +54,15 @@ Paleolithic
 Kahle, D.J., Wickham, H., 2013. [Ggmap: Spatial visualization with
 ggplot2.](https://pdfs.semanticscholar.org/79da/0d9d7d828169db3084024a4acf6c259d0c74.pdf)
 The R Journal 5, 144–161.
+
+</div>
+
+<div id="ref-lisiecki_pliocene-pleistocene_2005" class="csl-entry">
+
+Lisiecki, L.E., Raymo, M.E., 2005. A Pliocene-Pleistocene stack of 57
+globally distributed benthic δ $^{\textrm{18}}$ O records:
+Pliocene-Pleistocene Benthic Stack. Paleoceanography 20, n/a–n/a.
+<https://doi.org/10.1029/2004PA001071>
 
 </div>
 
