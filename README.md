@@ -19,7 +19,7 @@ Los datos y códigos se hacen disponibles bajo una licencia **Non
 Commercial 4.0 International (CC BY-NC 4.0)**.  
 Para más detalles ver el archivo [**License**](License.md).
 
-# Información sobre los datos elaborados para la elaboración del material
+# Información sobre los datos empleados para la elaboración del material
 
 El paquete de R **tidyverse v2.0.0** ([Wickham et al.,
 2019](#ref-wickham_welcome_2019)) se ha empleado para el procesado de la
