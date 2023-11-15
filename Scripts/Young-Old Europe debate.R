@@ -36,3 +36,35 @@ ggmap(WEurope) +
     legend.title = element_blank(),
     legend.text = element_text(size = 13.5, color = "black")
   )
+
+#### Map of initial long chronology discoveries ####
+load("Maps/Europe & Near East.RData")
+Europe.Long <- readODS::read_ods("Datasets/Short-Long-Chronology-Europe-Debate.ods",
+                                  sheet = 2)
+
+ggmap(Europe.NearEast) +
+  theme_map() +
+  geom_point(data = Europe.Long,
+             aes(longitude, latitude), 
+             size =  4, alpha = 1) +
+  xlab(NULL) +
+  ylab(NULL) +
+  guides(colour = guide_legend(nrow = 2)) +
+  
+  geom_label(aes(x = 18, y = 55, 
+                 label = "Yacimientos de la cronología larga: primeros descubrimientos"),
+             color = "black", fill = "white", size = 5.75, alpha = 0.5, fontface = "bold") +
+  ggrepel::geom_label_repel(data = Europe.Long, 
+                            aes(longitude, latitude, 
+                                label = paste(Site, "\n", Ages, "Ma")), 
+                            label.size = 0.08,
+                            size = 6,
+                            force_pull = -0.1,
+                            xlim = c(-10, 60), ylim = c(-35, 60),
+                            box.padding = unit(0.01, "lines"),
+                            min.segment.length = unit(0.0002, 'lines'), 
+                            nudge_y = .8) + 
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 20),
+    legend.position = "none"
+  )
