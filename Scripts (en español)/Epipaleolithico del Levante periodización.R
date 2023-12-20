@@ -2,6 +2,8 @@
 library(tidyverse); library(gsloid)
 
 #### Plot using North Greenland Ice Core Project (GICC05 time scale) ####
+
+#### Eventos Heinrich cronología aproximada ####
 H.events <- data.frame(
   Event = c("HE0", "HE1", "HE2","HE3","HE4", "HE5"),
   Age = c(12, 16.8, 23, 30, 36, 45))
@@ -72,7 +74,7 @@ df.Climate  %>% ggplot(aes(age/1000, delta)) +
   geom_label(aes(x = 12.25, y = -45, label = "DR"),
              fill = "lightblue", color = 'black', alpha = 0.3,
              size = 3) +
-  
+  labs(caption = "Dataset NGRP (NDAA)") +
   
   geom_vline(aes(xintercept = 11.7), linetype = 2) +  # Separación Pleistoceno - Holoceno
   
@@ -86,10 +88,19 @@ df.Climate  %>% ggplot(aes(age/1000, delta)) +
   scale_y_continuous(breaks = seq(-46, -34, 2), lim = c(-47.5, -26)) +
   xlab("Años BP (Ka)") +
   
-  scale_x_continuous(breaks = seq(8, 28, 2)) +
-  coord_cartesian(xlim = c(8, 28)) +
+  scale_x_reverse(breaks = seq(8, 28, 2)) +
+  coord_cartesian(xlim = c(28, 8)) +
   theme(
     axis.text.x = element_text(size = 12, color = "black"),
-    axis.text.y = element_text(size = 12, color = "black"),
+    axis.text.y = element_text(size = 10, color = "black"),
     axis.title = element_text(size = 13, color = "black", face = "bold")
   )
+
+ggsave(
+  "Images-español/Periodización del Epipaleolítico del Levante (PO).jpg",
+  device = "jpg",
+  dpi = 1200,
+  width = 32,
+  height = 15,
+  units = "cm"
+)
