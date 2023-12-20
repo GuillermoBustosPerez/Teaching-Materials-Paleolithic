@@ -82,7 +82,7 @@ df.Climate  %>% ggplot(aes(age/1000, delta)) +
              size = 5) +
   geom_label(aes(x = 17, y = -33.5, label = "Magdaleniense\nInicial\n17\n-\n16\nKa"),
              fill = "purple", color = 'black',
-             size = 4.5) +
+             size = 4) +
   
   geom_label(aes(x = 19.5, y = -29, label = "Solutrense\n22-17 Ka"),
              fill = "blue", color = 'black',
@@ -96,7 +96,7 @@ df.Climate  %>% ggplot(aes(age/1000, delta)) +
              size = 5) +
   geom_label(aes(x = 40, y = -31, label = "Proto-\nAuriñaciense\n42\n-\n38 Ka"),
              fill = "gold2", color = 'black',
-             size = 5) +
+             size = 4) +
   geom_label(aes(x = 44, y = -35.5, label = "Paleolítico\nMedio"),
              fill = "white", color = 'black',
              size = 3) +
@@ -105,10 +105,19 @@ df.Climate  %>% ggplot(aes(age/1000, delta)) +
              fill = "white", color = 'black',
              size = 3) +
   
-  scale_x_continuous(breaks = seq(4, 45, 2)) +
-  coord_cartesian(xlim = c(8, 45)) +
+  scale_x_reverse(breaks = seq(4, 45, 2)) +
+  coord_cartesian(xlim = c(45, 8)) +
   labs(caption = "NGRP Dataset (NDAA)") +
   theme_light() +
   theme(
     axis.text.x = element_text(size = 12, color = "black")
   )
+
+ggsave(
+  "Images-español/Paleolítico Superior europeo Periodización.jpg",
+  device = "jpg",
+  dpi = 1200,
+  width = 32,
+  height = 15,
+  units = "cm"
+)
