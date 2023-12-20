@@ -15,7 +15,7 @@ lisiecki2005 %>% filter(Time >= 11.7 & Time <= 2580) %>%
   xlab("Years Ma BP") +
   ggsci::scale_color_aaas() +
   labs(caption = "Data from Lisiecki & Raymo, 2005") +
-  scale_x_continuous(breaks = seq(0, 2.580, 0.2)) +
+  scale_x_reverse(breaks = seq(0, 2.580, 0.2)) +
   theme_light() +
   guides(color = guide_legend(nrow = 1)) +
   theme(
