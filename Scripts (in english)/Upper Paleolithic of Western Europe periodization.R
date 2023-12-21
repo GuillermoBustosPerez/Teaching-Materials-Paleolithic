@@ -80,7 +80,7 @@ df.Climate  %>% ggplot(aes(age/1000, delta)) +
   geom_label(aes(x = 13, y = -29, label = "Magdalenian\n16-10 Ka"),
              fill = "darkorchid1", color = 'black',
              size = 5) +
-  geom_label(aes(x = 17, y = -33.5, label = "Initial\nMagdalenian\n17\n-\n16\nKa"),
+  geom_label(aes(x = 16.5, y = -33.5, label = "Initial\nMagdalenian\n17\n-\n16\nKa"),
              fill = "purple", color = 'black',
              size = 4) +
   
