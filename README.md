@@ -9,7 +9,7 @@ gráficos, esquemas, etc.) elaborados durante el curso académico
 2023-2024 con motivo de las asignaturas *“Prehistoria y Arqueología de
 la Penísnula Ibérica”* y *“Arqueología del Paleolítico y Mesolítico”*.
 
-El grueso de los materiales gráficoss pueden encontrarse en la carpeta
+El grueso de los materiales gráficos pueden encontrarse en la carpeta
 [**Images**](Images)
 
 # **Información de acceso y licencia**
@@ -19,7 +19,7 @@ Los datos y códigos se hacen disponibles bajo una licencia **Non
 Commercial 4.0 International (CC BY-NC 4.0)**.  
 Para más detalles ver el archivo [**License**](License.md).
 
-# Información sobre los datos empleados para la elaboración del material
+# **Información sobre los datos empleados para la elaboración del material**
 
 El paquete de R **tidyverse v2.0.0** ([Wickham et al.,
 2019](#ref-wickham_welcome_2019)) se ha empleado para el procesado de la
@@ -38,6 +38,11 @@ mínimamente
 Este uso aparece indicado en los materiales gráficos creados en
 cumplimiento con los términos y condiciones de servicio:  
 (<https://www.roceeh.uni-tuebingen.de/roadweb/smarty_data_use_policy.php?asMsgWin=1>).
+
+En el caso de los yacimientos Solutrenses, se ha empleado una versión
+modificada de la base de datos CRC806-E1 ([Maier and Zimmermann,
+2015](#ref-maier_crc806-e1_2015)). La atribución está presente en todo
+material gráfico generado usando esta base de datos.
 
 This repository contains a wide range of materials (maps, graphs, etc.)
 employed during the teaching of courses related with the european
@@ -63,6 +68,14 @@ Lisiecki, L.E., Raymo, M.E., 2005. A Pliocene-Pleistocene stack of 57
 globally distributed benthic δ $^{\textrm{18}}$ O records:
 Pliocene-Pleistocene Benthic Stack. Paleoceanography 20, n/a–n/a.
 <https://doi.org/10.1029/2004PA001071>
+
+</div>
+
+<div id="ref-maier_crc806-e1_2015" class="csl-entry">
+
+Maier, A., Zimmermann, A., 2015. CRC806-E1 LGM-Sites Database
+V-20150313. Collaborative Research Centre.
+<https://doi.org/10.5880/SFB806.12>
 
 </div>
 
