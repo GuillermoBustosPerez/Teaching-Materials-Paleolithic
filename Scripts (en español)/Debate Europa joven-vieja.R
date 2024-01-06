@@ -88,4 +88,46 @@ ggsave(
   units = "cm"
 )
 
-#### 
+#### Refuerzo de la cronología larga ####
+
+Europe.Long <- readODS::read_ods("Datasets/Short-Long-Chronology-Europe-Debate.ods",
+                                 sheet = 3) %>% 
+  filter(Period == "Ear.Ple.Cal" & Site != "Cueva Victoria")
+
+
+ggmap(Europe.NearEast) +
+  theme_map() +
+  geom_point(data = Europe.Long,
+             aes(longitude, latitude), 
+             size =  4, alpha = 1) +
+  xlab(NULL) +
+  ylab(NULL) +
+  guides(colour = guide_legend(nrow = 2)) +
+  
+  geom_label(aes(x = 22, y = 55, 
+                 label = "Refuerzo de la Cronología Larga: principales yacimientos"),
+             color = "black", fill = "white", size = 7, alpha = 0.5, fontface = "bold") +
+  
+  ggrepel::geom_label_repel(data = Europe.Long, 
+                            aes(longitude, latitude, 
+                                label = paste(Site)), 
+                            label.size = 0.08,
+                            size = 3,
+                            force_pull = -0.01,
+                            xlim = c(-10, 60), ylim = c(-35, 60),
+                            box.padding = unit(0.01, "lines"),
+                            min.segment.length = unit(0.0002, 'lines'), 
+                            nudge_y = .8) + 
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 20),
+    legend.position = "none"
+  )
+
+ggsave(
+  "Images-español/Refuerzo de la cronología larga.jpg",
+  device = "jpg",
+  dpi = 1200,
+  width = 25,
+  height = 16,
+  units = "cm"
+)
