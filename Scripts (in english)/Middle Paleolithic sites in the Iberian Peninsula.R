@@ -16,17 +16,17 @@ ggmap(Ib.Pen) +
   scale_shape_manual(
     values = c(21:24),
     name = "Type",
-    labels = c("Cave", "Open aire", "Rockshelter")) +
+    labels = c("Cave", "Open air", "Rockshelter")) +
   
   ggtitle("Middle Paleolithic main sites in the Iberian Peninsula") +
   scale_fill_manual(
     name = "Type",
-    labels = c("Cave", "Open aire", "Rockshelter"),
+    labels = c("Cave", "Open air", "Rockshelter"),
     values = c("purple", "blue", "red")) +
   
   guides(
-    fill = guide_legend(nrow = 2),
-    shape = guide_legend(nrow = 2)) +
+    fill = guide_legend(nrow = 3),
+    shape = guide_legend(nrow = 3)) +
   
   theme(
     legend.title = element_text(size = 12, color = "black", face = "bold"),
@@ -39,7 +39,7 @@ ggsave(
   "Images-english/Middle Paleolithic main sites in the Iberian Peninsula.jpg",
   device = "jpg",
   dpi = 1200,
-  width = 19,
-  height = 16,
+  width = 20,
+  height = 17,
   units = "cm"
 )
