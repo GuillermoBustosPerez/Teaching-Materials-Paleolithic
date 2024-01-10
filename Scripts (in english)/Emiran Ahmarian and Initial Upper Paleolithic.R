@@ -26,7 +26,7 @@ ggmap(Europe.NearEast) +
              aes(longitude, latitude, fill = Complex, shape = Complex), 
              size =  4, alpha = 1, color = "black")  +
   
-  geom_label(aes(x = 43.85, y = 29.9, label = "ROCEEH Out Of Africa Database (ROAD)"),
+  geom_label(aes(x = 43.95, y = 30.5, label = "ROCEEH Out Of Africa Database (ROAD)"),
              color = "black", fill = "white", size = 2, alpha = 0.5) +
   
   geom_label(aes(x = 19.2, y = 55, label = "Initial Upper Paleolithic sites (45 - 40 Ka)"),
