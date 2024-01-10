@@ -18,7 +18,7 @@ IUpPa <- IUpPa %>% mutate(
                           labels = c("Emiriense & Ahmariense",
                                      "Auriñaciense 0 & I")))
 
-#### Mapa yyacimientos Emirienses, Ahmarienses y de Paleolítico Superior inicial ####
+#### Mapa yacimientos Emirienses, Ahmarienses y de Paleolítico Superior inicial ####
 ggmap(Europe.NearEast) +
   theme_map() +
   
@@ -49,5 +49,45 @@ ggsave(
   dpi = 1200,
   width = 25,
   height = 16,
+  units = "cm"
+)
+
+#### El levante Emiriense y Ahmariense ####
+load("Maps/Near East.RData")
+
+Emi.Ahma <- IUpPa %>% 
+  filter(Complex == "Emiran & Ahmarian")
+
+ggmap(N.East) +
+  theme_map() +
+  coord_map(
+    xlim = c(27, 43.20),
+    ylim = c(27.6, 37.5)) +
+
+  geom_point(data = Emi.Ahma,
+             aes(longitude, latitude), 
+             size =  5, alpha = 1, shape = 23, color = "black", fill = "purple")  +
+  
+  geom_label(aes(x = 30, y = 28, label = "ROCEEH Out Of Africa Database (ROAD)"),
+             color = "black", fill = "white", size = 2, alpha = 0.5) +
+  
+  geom_label(aes(x = 36, y = 37.1, label = "Yacimientos Emirienses & Ahmarienses (50 - 40 Ka)"),
+             color = "black", fill = "white", size = 5.75, alpha = 0.5, fontface = "bold") +
+    
+  ggrepel::geom_label_repel(data = Emi.Ahma, 
+                            aes(longitude, latitude, label = locality), 
+                            label.size = 0.01,
+                            force_pull = -0.22,
+                            size = 3,
+                            xlim = c(28, 43), ylim = c(28, 36),
+                            box.padding = unit(0.01, "lines"),
+                            nudge_y = 0.8) 
+
+ggsave(
+  "Images-español/Emiriense y Ahmariense.jpg",
+  device = "jpg",
+  dpi = 1200,
+  width = 18,
+  height = 14,
   units = "cm"
 )
