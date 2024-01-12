@@ -65,6 +65,8 @@ The following data and code is publish under a NonCommercial 4.0
 International (CC BY-NC 4.0) license. Details about the license terms
 are provided [**License**](License.md) file.
 
+![](Images-español/License.png)
+
 ## Main bibliography employed
 
 # **Versión en español**

@@ -1,6 +1,6 @@
 ## License
 
-![](Images/License.png)
+![](Images-español/License.png)
 
 The following data and code is publish under a **NonCommercial 4.0
 International (CC BY-NC 4.0) licnse**. You are free to:
