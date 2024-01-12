@@ -48,8 +48,10 @@ resources related to the Paleolithic:
 
 This repository contains a series of resources in the form of maps and
 graphs related to the Paleolithic, Epipaleolithic and Mesolithic
-periods. This repository was initial developed as a result of teaching
-activities at Universidad Autónoma of Madrid.
+periods. This repository was initially developed as a result of teaching
+activities at Universidad Autónoma of Madrid. The v.1.0 of this
+repository focuses on the courses taught during that period (making
+special emphasis in the Iberian Peninsula).
 
 ## External datasets
 
@@ -69,10 +71,47 @@ Epipaleolithic and Mesolithic
 **Fecha:** 2024  
 **Versión actual:** v.1.0
 
-El presente repositorio proporciona un conjunto de imágenes (mapas,
-gráficos, esquemas, etc.) elaborados durante el curso académico
-2023-2024 con motivo de las asignaturas *“Prehistoria y Arqueología de
-la Penísnula Ibérica”* y *“Arqueología del Paleolítico y Mesolítico”*.
+## Introducción
+
+La mayoría de los grados y másteres de arqueología incluyen cursos que
+se centran en un período que va desde el Paleolítico Inferior hasta
+momentos previos al inicio del Neolítico. Los períodos Paleolítico,
+Epipaleolítico y Mesolítico suman aproximadamente 4 millones de años de
+la historia de la humanidad (a menudo condensados en un solo curso).
+Debido a eso, las asignaturas que condensan estos periodos están
+orientadas a proporcionar una visión general de los diferentes periodos
+paleolíticos, con especial atención a los modelos histórico-culturales
+existentes, los debates actuales, las distribuciones geográficas del
+registro arqueológico y sus relaciones con el contexto paleoclimático,
+etc.
+
+Generalmente es difícil proporcionar visiones generales de los
+diferentes períodos del Paleolítico, ya que esto comúnmente implica:
+trazar la distribución geográfica de los hallazgos y sitios
+arqueológicos (con respecto al período o cultura correspondiente),
+presentar la sucesión de culturas Paleolíticas y su relación con las
+oscilaciones climáticas, mostrar las relaciones de los hallazgos
+arqueológicos con modelos históricos/culturales del pasado, y un largo
+etcétera. Disponer de recursos gráficos actualizados (en forma de mapas
+y gráficos) puede ayudar a proporcionar una visión general de los
+diferentes períodos del Paleolítico.
+
+Los repositorios online ofrecen una serie de ventajas a la hora de
+proporcionar recursos gráficos relacionados con el Paleolítico:
+
+- Se pueden modificar fácilmente para actualizar la información.  
+- Pueden hacer uso de bases de datos especializadas, asegurando
+  información actualizada y de alta calidad.  
+- Son de código abierto: se puede modificar el código base para ajustar
+  los recursos gráficos a necesidades específicas.  
+- Son gratuitos: permiten una amplia distribución de recursos gráficos.
+
+Este repositorio contiene una serie de recursos en forma de mapas y
+gráficos relacionados con los periodos Paleolítico, Epipaleolítico y
+Mesolítico. Este repositorio se ha desarrollado inicialmente como
+resultado de la actividad docente en la Universidad Autónoma de Madrid.
+La v.1.0 de este repositorio se centra en los cursos impartidos durante
+ese periodo (haciendo especial énfasis en la Península Ibérica).
 
 El grueso de los materiales gráficos pueden encontrarse en la carpeta
 [**Images**](Images)
