@@ -44,8 +44,7 @@ resources related to the Paleolithic:
   quality information.  
 - They are open source: the base code can be modified to adjust the
   graphic resources to specific needs.  
-- • They are free: allowing for a wide distribution of graphic
-  resources.
+- They are free: allowing for a wide distribution of graphic resources.
 
 This repository contains a series of resources in the form of maps and
 graphs related to the Paleolithic, Epipaleolithic and Mesolithic
@@ -62,9 +61,13 @@ activities at Universidad Autónoma of Madrid.
 
 # **Versión en español**
 
-# Información General (*General information*)
+## Información General
 
-*English version of the information is provided below*
+**Autor:** Guillermo Bustos-Pérez  
+**Título:** Repository of graphical resources related to Paleolithic,
+Epipaleolithic and Mesolithic  
+**Fecha:** 2024  
+**Versión actual:** v.1.0
 
 El presente repositorio proporciona un conjunto de imágenes (mapas,
 gráficos, esquemas, etc.) elaborados durante el curso académico
