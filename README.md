@@ -8,7 +8,7 @@ Epipaleolithic and Mesolithic
 **Date:** 2024  
 **Current version:** v.1.0
 
-Cite as:
+Please cite as:
 
     Bustos-Pérez, G. Repository of graphical resources related to Paleolithic, Epipaleolithic and Mesolithic. 2023. v.1.0
 
@@ -58,6 +58,12 @@ special emphasis in the Iberian Peninsula).
 ## Software and packages employed
 
 ## Updating policies
+
+## License of use
+
+The following data and code is publish under a NonCommercial 4.0
+International (CC BY-NC 4.0) license. Details about the license terms
+are provided [**License**](License.md) file.
 
 ## Main bibliography employed
 
