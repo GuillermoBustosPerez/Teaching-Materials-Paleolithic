@@ -1,3 +1,17 @@
+# **English version**
+
+## General Information
+
+**Author:** Guillermo Bustos-Pérez  
+**Title:** Repository of graphical resources related to Paleolithic,
+Epipaleolithic and Mesolithic  
+**Date:** 2023  
+**Current version:** v.1.0
+
+Cite as:
+
+    Bustos-Pérez, G. Repository of graphical resources related to Paleolithic, Epipaleolithic and Mesolithic. 2023. v.1.0
+
 # Información General (*General information*)
 
 *English version of the information is provided below*
@@ -56,13 +70,13 @@ Paleolithic
 
 El presente repositorio ha sido hecho posible gracias al Programa
 Recualificacion del sistema universitario español bajo un contrato
-postdoctoral Margarita Salas (CA1/RSUE/2021-00743), financiado a través
-del *Plan Español de Recuperación Transformación y Resiliencia* y
+postdoctoral Margarita Salas (**CA1/RSUE/2021-00743**), financiado a
+través del *Plan Español de Recuperación Transformación y Resiliencia* y
 administrado por la Universidad Autónoma de Madrid.
 
 The following research has been possible thanks to the Program for the
 Requalification of the University System Margarita Salas
-(CA1/RSUE/2021-00743) financed through the Spanish “Recovery,
+(**CA1/RSUE/2021-00743**) financed through the Spanish “Recovery,
 Transformation and Resilience Plan” and managed from the Ministry of
 Universities (Ministerio de Universidades) and the Autonomous University
 of Madrid (Universidad Autónoma de Madrid).
