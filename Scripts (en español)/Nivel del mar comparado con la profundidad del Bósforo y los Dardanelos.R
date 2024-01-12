@@ -22,3 +22,12 @@ gsloid::spratt2016 %>%
     axis.text = element_text(color = "black", size = 11),
     axis.title = element_text(color = "black", size = 12, face = "bold")
   )
+
+ggsave(
+  "Images-español/Nivel del mar y profundidad estrechos.jpg",
+  device = "jpg",
+  dpi = 1200,
+  width = 32,
+  height = 10,
+  units = "cm"
+)
