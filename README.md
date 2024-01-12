@@ -5,12 +5,60 @@
 **Author:** Guillermo Bustos-Pérez  
 **Title:** Repository of graphical resources related to Paleolithic,
 Epipaleolithic and Mesolithic  
-**Date:** 2023  
+**Date:** 2024  
 **Current version:** v.1.0
 
 Cite as:
 
     Bustos-Pérez, G. Repository of graphical resources related to Paleolithic, Epipaleolithic and Mesolithic. 2023. v.1.0
+
+## Introduction
+
+Most archaeological academic degrees and masters include courses
+focusing in a period ranging from the Lower Paleolithic to the start of
+Neolithic. The Paleolithic, Epipaleolithic and Mesolithic periods
+roughly sum up 4 Ma years of the history of humanity (often condensed in
+a single course). As a result of this, courses are aimed at providing
+general overviews of the different paleolithic periods, with special
+focus on existing historical/cultural models, current debates,
+geographical distributions of the archaeological record and its
+relations with the paleoclimatic context, etc.
+
+It is usually difficult to provide overviews of different Paleolithic
+periods, since this commonly implies: plotting the geographical
+distributions of archaeological finds and sites (regarding the
+corresponding period or culture), presenting the succession of
+Paleolithic cultures and their relationship with climatic oscillations,
+showing the relationships of archaeological finds with historic/cultural
+models of the past, and a large etc. Having up to date graphic resources
+(in the form of maps and graphs) can help provide general overviews of
+the different Paleolithic periods.
+
+Online repositories offer a series of advantages for providing graphic
+resources related to the Paleolithic:
+
+- They can be easily modified to update information.  
+- They can make use of specialized databases, ensuring up to date high
+  quality information.  
+- They are open source: the base code can be modified to adjust the
+  graphic resources to specific needs.  
+- • They are free: allowing for a wide distribution of graphic
+  resources.
+
+This repository contains a series of resources in the form of maps and
+graphs related to the Paleolithic, Epipaleolithic and Mesolithic
+periods. This repository was initial developed as a result of teaching
+activities at Universidad Autónoma of Madrid.
+
+## External datasets
+
+## Software and packages employed
+
+## Updating policies
+
+## Main bibliography employed
+
+# **Versión en español**
 
 # Información General (*General information*)
 
