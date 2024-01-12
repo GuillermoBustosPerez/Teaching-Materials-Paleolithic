@@ -21,36 +21,55 @@ Para más detalles ver el archivo [**License**](License.md).
 
 # **Información sobre los datos empleados para la elaboración del material**
 
-El paquete de R **tidyverse v2.0.0** ([Wickham et al.,
-2019](#ref-wickham_welcome_2019)) se ha empleado para el procesado de la
-mayoría de los datos, mientras que **ggmap v.4.0.0** ([Kahle and
-Wickham, 2013](#ref-kahle_ggmap_2013)) ha sido empleado para el
-desarrollo de la mayoría de los mapas.  
+Buena parte de los mapas han sido generados con bases de datos de
+producción propia reunidas a lo largo de los años. Sin embargo, muchas
+de estas bases de datos están incompletas (con ausencia de yacimientos).
+
 Lisiecki and Raymo ([2005](#ref-lisiecki_pliocene-pleistocene_2005)) ha
 sido empleado para generar los gráficos de variación de O18 a lo largo
 del Cuaternario.  
 Spratt and Lisiecki ([2016](#ref-spratt_late_2016)) ha sido empleado
 para generar la curva de variaciones del nivel del mar.
 
-La base de datos **ROAD** se ha citado siempre que se ha empleado
-mínimamente
-(<https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php>).  
-Este uso aparece indicado en los materiales gráficos creados en
-cumplimiento con los términos y condiciones de servicio:  
-(<https://www.roceeh.uni-tuebingen.de/roadweb/smarty_data_use_policy.php?asMsgWin=1>).
-
 En el caso de los yacimientos Solutrenses, se ha empleado una versión
 modificada de la base de datos CRC806-E1 ([Maier and Zimmermann,
 2015](#ref-maier_crc806-e1_2015)). La atribución está presente en todo
 material gráfico generado usando esta base de datos.
 
+La base de datos **ROAD** se ha citado siempre que se ha empleado
+(<https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php>).  
+Este uso aparece indicado en los materiales gráficos creados en
+cumplimiento con los términos y condiciones de servicio:  
+(<https://www.roceeh.uni-tuebingen.de/roadweb/smarty_data_use_policy.php?asMsgWin=1>).
+
+El paquete de R **tidyverse v2.0.0** ([Wickham et al.,
+2019](#ref-wickham_welcome_2019)) se ha empleado para el procesado de la
+mayoría de los datos, mientras que **ggmap v.4.0.0** ([Kahle and
+Wickham, 2013](#ref-kahle_ggmap_2013)) ha sido empleado para el
+desarrollo de la mayoría de los mapas.
+
 This repository contains a wide range of materials (maps, graphs, etc.)
 employed during the teaching of courses related with the european
 Paleolithic
 
-</div>
+# Financiación (*Funding*)
+
+El presente repositorio ha sido hecho posible gracias al Programa
+Recualificacion del sistema universitario español bajo un contrato
+postdoctoral Margarita Salas (CA1/RSUE/2021-00743), financiado a través
+del *Plan Español de Recuperación Transformación y Resiliencia* y
+administrado por la Universidad Autónoma de Madrid.
+
+The following research has been possible thanks to the Program for the
+Requalification of the University System Margarita Salas
+(CA1/RSUE/2021-00743) financed through the Spanish “Recovery,
+Transformation and Resilience Plan” and managed from the Ministry of
+Universities (Ministerio de Universidades) and the Autonomous University
+of Madrid (Universidad Autónoma de Madrid).
 
 # Bibliografía (*References*)
+
+</div>
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
