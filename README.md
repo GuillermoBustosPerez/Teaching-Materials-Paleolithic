@@ -12,6 +12,8 @@ Cite as:
 
     Bustos-Pérez, G. Repository of graphical resources related to Paleolithic, Epipaleolithic and Mesolithic. 2023. v.1.0
 
+<div align="justify">
+
 ## Introduction
 
 Most archaeological academic degrees and masters include courses
@@ -63,8 +65,6 @@ activities at Universidad Autónoma of Madrid.
 # Información General (*General information*)
 
 *English version of the information is provided below*
-
-<div align="justify">
 
 El presente repositorio proporciona un conjunto de imágenes (mapas,
 gráficos, esquemas, etc.) elaborados durante el curso académico
