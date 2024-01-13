@@ -69,12 +69,18 @@ sites to a period), current maps are surely missing archaeological sites
 needed for different periods, etc.
 
 This repository uses a two-digit version numbering, in the format:
-`v.a.b`
-
-With
+`v.a.b`. With:
 
 - **a** = major changes.  
 - **b** = minor changes.
+
+**Major changes** are defined as actions implying the restructuring of
+the repository (changes in the folders), adding of new graphical
+material, or adding new data sets.  
+**Minor changes** are defined as actions which include the expansion of
+existing data sets, code optimization, fixing of parsing errors
+(including spelling), changes in existing graphic material (color, text,
+base maps, etc.), and changes in the titles of graphic materials.
 
 ## License of use
 
