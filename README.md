@@ -59,6 +59,24 @@ special emphasis in the Iberian Peninsula).
 
 ## Updating policies
 
+As previously mentioned in the introduction, and advantage of online
+repositories is that they can be updated periodically to ensure that the
+information is up to date. In the field of archaeology this is a key
+matter, since new discoveries might result in the reviewing or
+development of new chrono-cultural models (or might result in adding
+sites to a period), current maps are surely missing archaeological sites
+(they will be progressively added), new graphical material might be
+needed for different periods, etc.
+
+This repository uses a two-digit version numbering, in the format:
+
+`v.a.b`
+
+With
+
+- **a** = major changes.  
+- **b** = minor changes.
+
 ## License of use
 
 The following data and code is publish under a NonCommercial 4.0
