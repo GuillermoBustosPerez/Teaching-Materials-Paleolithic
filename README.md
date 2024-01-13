@@ -69,7 +69,6 @@ sites to a period), current maps are surely missing archaeological sites
 needed for different periods, etc.
 
 This repository uses a two-digit version numbering, in the format:
-
 `v.a.b`
 
 With
