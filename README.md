@@ -80,7 +80,8 @@ material, or adding new data sets.
 **Minor changes** are defined as actions which include the expansion of
 existing data sets, code optimization, fixing of parsing errors
 (including spelling), changes in existing graphic material (color, text,
-base maps, etc.), and changes in the titles of graphic materials.
+base maps, etc.), changes in the titles of graphic materials, adding of
+references, or improvement of the Readme file.
 
 ## License of use
 
