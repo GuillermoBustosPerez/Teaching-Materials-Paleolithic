@@ -1,3 +1,5 @@
+<div align="justify">
+
 # Bibliography (bibliografía)
 
 This is complete list of documents consukted during the development of
@@ -95,3 +97,5 @@ Wolff, E. W., J. Chappellaz, T. Blunier, S. O. Rasmussen, y A. Svensson
 record. Quaternary Science Reviews 29(21). Vegetation Response to
 Millennial-scale Variability during the Last Glacial:2828-2838.
 <DOI:10.1016/j.quascirev.2009.10.013>.
+
+</div>
