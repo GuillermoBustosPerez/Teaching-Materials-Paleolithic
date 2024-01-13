@@ -2,7 +2,7 @@
 
 # Bibliography (bibliografía)
 
-This is complete list of documents consukted during the development of
+This is complete list of documents consulted during the development of
 the present repository.
 
 Andersen, K. K., N. Azuma, J.-M. Barnola, M. Bigler, P. Biscaye, N.

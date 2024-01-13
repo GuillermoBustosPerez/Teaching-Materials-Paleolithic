@@ -93,6 +93,10 @@ are provided [**License**](License.md) file.
 
 ## Main bibliography employed
 
+Multiple references have been consulted in order to generate the graphic
+materials here present. these references can be consulted in the file
+[**Bibliography**](Bibliography.md)
+
 # **Versión en español**
 
 ## Información General
