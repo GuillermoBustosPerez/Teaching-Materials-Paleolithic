@@ -28,8 +28,8 @@ relations with the paleoclimatic context, etc.
 
 It is usually difficult to provide overviews of different Paleolithic
 periods, since this commonly implies: plotting the geographical
-distributions of archaeological finds and sites (regarding the
-corresponding period or culture), presenting the succession of
+distributions of archaeological finds and sites (regarding the different
+periods, cultures or significant finds), presenting the succession of
 Paleolithic cultures and their relationship with climatic oscillations,
 showing the relationships of archaeological finds with historic/cultural
 models of the past, and a large etc. Having up to date graphic resources
@@ -54,6 +54,18 @@ repository focuses on the courses taught during that period (making
 special emphasis in the Iberian Peninsula).
 
 ## External datasets
+
+The ROCEEH Out Of Africa Database (ROAD) (CC BY-SA 4.0) has played an
+important role in the development of several graphic materials
+(<http://www.roceeh.org>). The work of the data contributors and ROAD
+community is gratefully acknowledged.
+
+The “Collaborative Research Centre 806 Database. Our Way to Europe”
+(<https://crc806db.uni-koeln.de/>) provides multiple datasets regariding
+archaeological site distribution. Currently, the CRC806-E1 LGM-Sites
+Database V-20150313 ([Maier and Zimmermann,
+2015](#ref-maier_crc806-e1_2015)) has been instrumental for the
+development of graphic materials related to the Last Glacial Maximum.
 
 ## Software and packages employed
 
