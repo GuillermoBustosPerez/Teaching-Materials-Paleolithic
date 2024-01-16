@@ -80,6 +80,17 @@ used to generate the sea level variation plot.
 
 ## Software and packages employed
 
+All the graphical materials from this repository have been generated
+with free software. The datasets are stored in OpenOffice or LibreOffice
+(<https://es.libreoffice.org/>) calculator format files.
+
+Workflow and code have been developed in RStudio using the R programming
+language. The package `tidyverse v2.0.0` ([Wickham et al.,
+2019](#ref-wickham_welcome_2019)) has been employed extensively to
+process and muggle most of the data sets. The package `ggmap v.4.0.0`
+([Kahle and Wickham, 2013](#ref-kahle_ggmap_2013)) has been employed for
+the development of most maps.
+
 ## Updating policies
 
 As previously mentioned in the introduction, and advantage of online
