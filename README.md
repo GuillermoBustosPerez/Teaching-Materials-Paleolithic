@@ -67,6 +67,12 @@ Database V-20150313 ([Maier and Zimmermann,
 2015](#ref-maier_crc806-e1_2015)) has been instrumental for the
 development of graphic materials related to the Last Glacial Maximum.
 
+For the plotting of climate variation curves, the Lisiecki and Raymo
+([2005](#ref-lisiecki_pliocene-pleistocene_2005)) dataset has been used
+to show the variation of O18 levels throughout the Quaternary. The
+Spratt and Lisiecki ([2016](#ref-spratt_late_2016)) database has been
+used to generate the sea level variation plot.
+
 ## Software and packages employed
 
 ## Updating policies
@@ -83,6 +89,7 @@ needed for different periods, etc.
 This repository uses a two-digit version numbering, in the format:
 `v.a.b`. With:
 
+- **v** = version.  
 - **a** = major changes.  
 - **b** = minor changes.
 
@@ -164,24 +171,40 @@ ese periodo (haciendo especial énfasis en la Península Ibérica).
 El grueso de los materiales gráficos pueden encontrarse en la carpeta
 [**Images**](Images)
 
-# **Información de acceso y licencia**
+## Bases de datos externas
+
+La base de datos ROCEEH Out Of Africa (ROAD) (CC BY-SA 4.0) ha jugado un
+papel esencial en el desarrollo de varios de los materiales gráficos
+(<http://www.roceeh.org>). Se reconoce y agradece el trabajo de los
+contribuyentes de datos y de la comunidad ROAD.
+
+El repositorio del “Collaborative Research Centre 806 Database. Our Way
+to Europe” (<https://crc806db.uni-koeln.de/>) proporciona múltiples
+bases de datos sobre la distribución de sitios arqueológicos. Para la
+presente versión, la Base de Datos CRC806-E1 LGM-Sites V-20150313
+([Maier and Zimmermann, 2015](#ref-maier_crc806-e1_2015)) ha sido
+fundamental para el desarrollo de materiales gráficos relacionados con
+el Último Máximo Glacial.
+
+En el caso del desarrollo de las curvas de variaciones climáticas se ha
+empleado el dataset Lisiecki and Raymo
+([2005](#ref-lisiecki_pliocene-pleistocene_2005)) para mostrar la
+variación de O18 a lo largo del Cuaternario. La base de datos de Spratt
+and Lisiecki ([2016](#ref-spratt_late_2016)) ha sido empleado para
+generar la curva de variaciones del nivel del mar.
+
+## **Información de acceso y licencia**
 
 **Licencia:**  
 Los datos y códigos se hacen disponibles bajo una licencia **Non
 Commercial 4.0 International (CC BY-NC 4.0)**.  
 Para más detalles ver el archivo [**License**](License.md).
 
-# **Información sobre los datos empleados para la elaboración del material**
+## **Información sobre los datos empleados para la elaboración del material**
 
 Buena parte de los mapas han sido generados con bases de datos de
 producción propia reunidas a lo largo de los años. Sin embargo, muchas
 de estas bases de datos están incompletas (con ausencia de yacimientos).
-
-Lisiecki and Raymo ([2005](#ref-lisiecki_pliocene-pleistocene_2005)) ha
-sido empleado para generar los gráficos de variación de O18 a lo largo
-del Cuaternario.  
-Spratt and Lisiecki ([2016](#ref-spratt_late_2016)) ha sido empleado
-para generar la curva de variaciones del nivel del mar.
 
 En el caso de los yacimientos Solutrenses, se ha empleado una versión
 modificada de la base de datos CRC806-E1 ([Maier and Zimmermann,
