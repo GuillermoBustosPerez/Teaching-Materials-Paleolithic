@@ -55,6 +55,11 @@ special emphasis in the Iberian Peninsula).
 
 ## External datasets
 
+Many of the maps have been generated with self-produced databases
+gathered over the years. However, many of these databases are incomplete
+(with missing sites). As indicated in the updating policies, these
+databases will be completed and expanded over time.
+
 The ROCEEH Out Of Africa Database (ROAD) (CC BY-SA 4.0) has played an
 important role in the development of several graphic materials
 (<http://www.roceeh.org>). The work of the data contributors and ROAD
@@ -95,7 +100,8 @@ This repository uses a two-digit version numbering, in the format:
 
 **Major changes** are defined as actions implying the restructuring of
 the repository (changes in the folders), adding of new graphical
-material, or adding new data sets.  
+material, or adding new data sets.
+
 **Minor changes** are defined as actions which include the expansion of
 existing data sets, code optimization, fixing of parsing errors
 (including spelling), changes in existing graphic material (color, text,
@@ -168,8 +174,8 @@ resultado de la actividad docente en la Universidad Autónoma de Madrid.
 La v.1.0 de este repositorio se centra en los cursos impartidos durante
 ese periodo (haciendo especial énfasis en la Península Ibérica).
 
-El grueso de los materiales gráficos pueden encontrarse en la carpeta
-[**Images**](Images)
+Los materiales gráficos pueden encontrarse en la carpeta
+[**Images**](Images-español)
 
 ## Bases de datos externas
 
@@ -193,18 +199,20 @@ variación de O18 a lo largo del Cuaternario. La base de datos de Spratt
 and Lisiecki ([2016](#ref-spratt_late_2016)) ha sido empleado para
 generar la curva de variaciones del nivel del mar.
 
-## **Información de acceso y licencia**
+## Información de acceso y licencia
 
 **Licencia:**  
 Los datos y códigos se hacen disponibles bajo una licencia **Non
 Commercial 4.0 International (CC BY-NC 4.0)**.  
 Para más detalles ver el archivo [**License**](License.md).
 
-## **Información sobre los datos empleados para la elaboración del material**
+## Información sobre los datos empleados para la elaboración del material
 
 Buena parte de los mapas han sido generados con bases de datos de
 producción propia reunidas a lo largo de los años. Sin embargo, muchas
 de estas bases de datos están incompletas (con ausencia de yacimientos).
+Tal y como se indica en la política de actualizacioones, estas bases de
+datos se irán completando con el pasod el tiempo.
 
 En el caso de los yacimientos Solutrenses, se ha empleado una versión
 modificada de la base de datos CRC806-E1 ([Maier and Zimmermann,
@@ -216,6 +224,8 @@ La base de datos **ROAD** se ha citado siempre que se ha empleado
 Este uso aparece indicado en los materiales gráficos creados en
 cumplimiento con los términos y condiciones de servicio:  
 (<https://www.roceeh.uni-tuebingen.de/roadweb/smarty_data_use_policy.php?asMsgWin=1>).
+
+## Software empleado
 
 El paquete de R **tidyverse v2.0.0** ([Wickham et al.,
 2019](#ref-wickham_welcome_2019)) se ha empleado para el procesado de la
