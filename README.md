@@ -53,6 +53,9 @@ activities at Universidad Autónoma of Madrid. The v.1.0 of this
 repository focuses on the courses taught during that period (making
 special emphasis in the Iberian Peninsula).
 
+The graphic materials can be found at the
+[**Images-english**](Images-english) folder.
+
 ## External datasets
 
 Many of the maps have been generated with self-produced databases
@@ -119,6 +122,15 @@ existing data sets, code optimization, fixing of parsing errors
 (including spelling), changes in existing graphic material (color, text,
 base maps, etc.), changes in the titles of graphic materials, adding of
 references, or improvement of the Readme file.
+
+## Funding
+
+The following research has been possible thanks to the Program for the
+Requalification of the University System Margarita Salas
+(**CA1/RSUE/2021-00743**) financed through the Spanish *“Recovery,
+Transformation and Resilience Plan”* and managed from the Ministry of
+Universities (Ministerio de Universidades) and the Autonomous University
+of Madrid (Universidad Autónoma de Madrid).
 
 ## License of use
 
@@ -245,24 +257,13 @@ mayoría de los datos, mientras que **ggmap v.4.0.0** ([Kahle and
 Wickham, 2013](#ref-kahle_ggmap_2013)) ha sido empleado para el
 desarrollo de la mayoría de los mapas.
 
-This repository contains a wide range of materials (maps, graphs, etc.)
-employed during the teaching of courses related with the european
-Paleolithic
-
-# Financiación (*Funding*)
+## Financiación
 
 El presente repositorio ha sido hecho posible gracias al Programa
 Recualificacion del sistema universitario español bajo un contrato
 postdoctoral Margarita Salas (**CA1/RSUE/2021-00743**), financiado a
 través del *Plan Español de Recuperación Transformación y Resiliencia* y
 administrado por la Universidad Autónoma de Madrid.
-
-The following research has been possible thanks to the Program for the
-Requalification of the University System Margarita Salas
-(**CA1/RSUE/2021-00743**) financed through the Spanish “Recovery,
-Transformation and Resilience Plan” and managed from the Ministry of
-Universities (Ministerio de Universidades) and the Autonomous University
-of Madrid (Universidad Autónoma de Madrid).
 
 # Bibliografía (*References*)
 
