@@ -70,3 +70,40 @@ ggsave(
   height = 16.25,
   units = "cm"
 )
+
+#### Coexistencia entre achelense y Paleolítico Medio Inicial ####
+load("Maps/Iberian Peninsula.RData")
+
+Ach.EMP <- readODS::read_ods("Datasets/Acheulean-in-Europe.ods",
+                             sheet = 3)
+
+# Mapa de yacimientos achelenses y Pal Medio Inicial
+ggmap(Ib.Pen) +
+  theme_map() +
+  geom_point(data = Ach.EMP,
+             aes(longitude, latitude, fill = Lithic.Tech, shape = Lithic.Tech), 
+             alpha = 0.75, color = "black", size = 5) +
+  scale_fill_manual(values = c("red", "purple"),
+                    labels = c("Acheulean", 
+                               "Early Middle Paleolithic")) +
+  scale_shape_manual(values = c(21:22),
+                     labels = c("Acheulean", 
+                                "Early Middle Paleolithic")) +
+  guides(colour = guide_legend(nrow = 2)) +
+  ggtitle("Coexistance between Acheulean and Early Middle Paleolithic") +
+  theme(
+    legend.position = c(0.6, 0),
+    plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
+    legend.title = element_blank(),
+    legend.text = element_text(size = 13.5, color = "black")
+  )
+
+
+ggsave(
+  "Images-english/Acheuean and Early Middle Paleolithic at the IP.jpg",
+  device = "jpg",
+  dpi = 1200,
+  width = 17,
+  height = 16.05,
+  units = "cm"
+)
