@@ -1,6 +1,6 @@
 <div align="center">
 
-# **English version**
+# **Readme in English version**
 
 </div>
 
@@ -97,9 +97,12 @@ Workflow and code have been developed in RStudio ([Rs. Team,
 ([Wickham et al., 2019](#ref-wickham_welcome_2019)) has been employed
 extensively to process and muggle most of the data sets. The package
 `ggmap` ([Kahle and Wickham, 2013](#ref-kahle_ggmap_2013)) has been
-employed for the development of most maps.
+employed for the development of most maps. Different text files have
+been generated using `R Markdown` ([Baumer and Udwin,
+2015](#ref-baumer_r_2015)) or `Bookdown` ([Xie,
+2016](#ref-xie_bookdown_2016)).
 
-## Updating policies
+## Updating and versioning policies
 
 As previously mentioned in the introduction, and advantage of online
 repositories is that they can be updated periodically to ensure that the
@@ -154,7 +157,7 @@ materials here present. these references can be consulted in the file
 
 <div align="center">
 
-# Versión en español
+# **Readme versión en español**
 
 </div>
 
@@ -241,7 +244,7 @@ variación de O18 a lo largo del Cuaternario. La base de datos de Spratt
 and Lisiecki ([2016](#ref-spratt_late_2016)) ha sido empleado para
 generar la curva de variaciones del nivel del mar.
 
-## Política de actualización
+## Criterios de actualización y versionado
 
 Como se ha mencionado anteriormente en la introducción, una ventaja de
 los repositorios en línea es que se pueden actualizar periódicamente
@@ -267,18 +270,27 @@ nuevos conjuntos de datos.
 
 **Los cambios menores** se definen como acciones que incluyen la
 expansión de conjuntos de datos existentes, optimización del código,
-corrección de errores de análisis (incluida la ortografía), cambios en
-el material gráfico existente (color, texto, mapas base, etc.), cambios
-en los títulos de materiales gráficos, adición de referencias o mejora
-del archivo Readme.
+corrección de errores de código o sintaxis (incluida la ortografía),
+cambios en el material gráfico existente (color, texto, mapas base,
+etc.), cambios en los títulos de materiales gráficos, adición de
+referencias/bibliografía o mejora del archivo Readme.
 
 ## Software empleado
 
-El paquete de R **tidyverse v2.0.0** ([Wickham et al.,
-2019](#ref-wickham_welcome_2019)) se ha empleado para el procesado de la
-mayoría de los datos, mientras que **ggmap v.4.0.0** ([Kahle and
-Wickham, 2013](#ref-kahle_ggmap_2013)) ha sido empleado para el
-desarrollo de la mayoría de los mapas.
+Todos los materiales gráficos de este repositorio han sido generados con
+software libre. Los conjuntos de datos se almacenan en archivos de tipo
+calculadora de OpenOffice o LibreOffice (<https://es.libreoffice.org/>).
+
+El flujo de trabajo y el código se han desarrollado en RStudio ([Rs.
+Team, 2019](#ref-rstudio_team_rstudio_2019)) utilizando el lenguaje de
+programación R ([R. C. Team, 2019](#ref-r_core_team_r_2019)). El paquete
+`tidyverse` ([Wickham et al., 2019](#ref-wickham_welcome_2019)) se ha
+utilizado ampliamente para procesar y manipular la mayoría de los
+conjuntos de datos. El paquete `ggmap` ([Kahle and Wickham,
+2013](#ref-kahle_ggmap_2013)) se ha utilizado para el desarrollo de la
+mayoría de los mapas. Los diferentes archivos de texto se han generado
+usando `R Markdown` ([Baumer and Udwin, 2015](#ref-baumer_r_2015)) o
+`Bookdown` ([Xie, 2016](#ref-xie_bookdown_2016)).
 
 ## Financiación
 
@@ -300,6 +312,13 @@ Para más detalles ver el archivo [**License**](License.md).
 </div>
 
 <div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-baumer_r_2015" class="csl-entry">
+
+Baumer, B., Udwin, D., 2015. R Markdown. WIREs Computational Statistics
+7, 167–177. <https://doi.org/10.1002/wics.1348>
+
+</div>
 
 <div id="ref-kahle_ggmap_2013" class="csl-entry">
 
@@ -356,6 +375,14 @@ T., Miller, E., Bache, S., Müller, K., Ooms, J., Robinson, D., Seidel,
 D., Spinu, V., Takahashi, K., Vaughan, D., Wilke, C., Woo, K., Yutani,
 H., 2019. Welcome to the Tidyverse. Journal of Open Source Software 4,
 1686. <https://doi.org/10.21105/joss.01686>
+
+</div>
+
+<div id="ref-xie_bookdown_2016" class="csl-entry">
+
+Xie, Y., 2016. [Bookdown: Authoring books and technical documents with R
+markdown](https://books.google.es/books?hl=es&lr=&id=_LrZDQAAQBAJ&oi=fnd&pg=PT12&dq=%22bookdown%22&ots=tA1ymZyO92&sig=l4Tc0aAb6lLgLlUGMFvZYtEpD5E).
+CRC Press.
 
 </div>
 
