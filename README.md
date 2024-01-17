@@ -85,6 +85,12 @@ to show the variation of O18 levels throughout the Quaternary. The
 Spratt and Lisiecki ([2016](#ref-spratt_late_2016)) database has been
 used to generate the sea level variation plot.
 
+## Main bibliography employed
+
+Multiple references have been consulted in order to generate the graphic
+materials here present. These references can be consulted in the file
+[**Bibliography**](Bibliography.md)
+
 ## Software and packages employed
 
 All the graphical materials from this repository have been generated
@@ -147,12 +153,6 @@ are provided [**License**](License.md) file.
 
 ![](Images-español/License.png)
 
-## Main bibliography employed
-
-Multiple references have been consulted in order to generate the graphic
-materials here present. these references can be consulted in the file
-[**Bibliography**](Bibliography.md)
-
 </div>
 
 <div align="center">
@@ -168,6 +168,10 @@ materials here present. these references can be consulted in the file
 Epipaleolithic and Mesolithic  
 **Fecha:** 2024  
 **Versión actual:** v.1.0
+
+Por favor citar:
+
+    Bustos-Pérez, G. Repository of graphical resources related to Paleolithic, Epipaleolithic and Mesolithic. 2023. v.1.0
 
 <div align="justify">
 
@@ -243,6 +247,12 @@ empleado el dataset Lisiecki and Raymo
 variación de O18 a lo largo del Cuaternario. La base de datos de Spratt
 and Lisiecki ([2016](#ref-spratt_late_2016)) ha sido empleado para
 generar la curva de variaciones del nivel del mar.
+
+## Bibliografía empleada
+
+Pa la generación de los materiales gráficos de este repositorio se ha
+consultado una amplia variedad de bibliografía. Esta bibliografía puede
+ser consultada en el archivo [**Bibliography**](Bibliography.md)
 
 ## Software empleado
 
