@@ -12,7 +12,8 @@ Epipaleolithic and Mesolithic
 **Date:** 2024  
 **Current version:** v.1.0
 
-Please cite as:
+Please, in case of using graphic material or original data sets, cite
+as:
 
     Bustos-Pérez, G. Repository of graphical resources related to Paleolithic, Epipaleolithic and Mesolithic. 2023. v.1.0
 
@@ -169,7 +170,8 @@ Epipaleolithic and Mesolithic
 **Fecha:** 2024  
 **Versión actual:** v.1.0
 
-Por favor citar:
+Por favor, en caso de usar material gráfico o bases de datos originales,
+citar de la siguiente manera:
 
     Bustos-Pérez, G. Repository of graphical resources related to Paleolithic, Epipaleolithic and Mesolithic. 2023. v.1.0
 
