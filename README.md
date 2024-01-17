@@ -154,7 +154,7 @@ materials here present. these references can be consulted in the file
 
 <div align="center">
 
-# Versión en español\*\*
+# Versión en español
 
 </div>
 
@@ -170,17 +170,17 @@ Epipaleolithic and Mesolithic
 
 ## Introducción
 
-La mayoría de los grados y másteres de arqueología incluyen cursos que
-se centran en un período que va desde el Paleolítico Inferior hasta
-momentos previos al inicio del Neolítico. Los períodos Paleolítico,
-Epipaleolítico y Mesolítico suman aproximadamente 4 millones de años de
-la historia de la humanidad (a menudo condensados en un solo curso).
-Debido a eso, las asignaturas que condensan estos periodos están
-orientadas a proporcionar una visión general de los diferentes periodos
-paleolíticos, con especial atención a los modelos histórico-culturales
-existentes, los debates actuales, las distribuciones geográficas del
-registro arqueológico y sus relaciones con el contexto paleoclimático,
-etc.
+La mayoría de los grados/licenciaturas y másteres de arqueología
+incluyen cursos que se centran en un período que va desde el Paleolítico
+Inferior hasta momentos previos al inicio del Neolítico. Los períodos
+Paleolítico, Epipaleolítico y Mesolítico suman aproximadamente 4
+millones de años de la historia de la humanidad (a menudo condensados en
+un solo curso). Debido a eso, las asignaturas que condensan estos
+periodos están orientadas a proporcionar una visión general de los
+diferentes periodos paleolíticos, con especial atención a los modelos
+histórico-culturales existentes, los debates actuales, las
+distribuciones geográficas del registro arqueológico y sus relaciones
+con el contexto paleoclimático, etc.
 
 Generalmente es difícil proporcionar visiones generales de los
 diferentes períodos del Paleolítico, ya que esto comúnmente implica:
@@ -215,6 +215,12 @@ Los materiales gráficos pueden encontrarse en la carpeta
 
 ## Bases de datos externas
 
+Buena parte de los mapas han sido generados con bases de datos de
+producción propia reunidas a lo largo de los años. Sin embargo, muchas
+de estas bases de datos están incompletas (con ausencia de yacimientos).
+Tal y como se indica en la política de actualizacioones, estas bases de
+datos se irán completando con el pasod el tiempo.
+
 La base de datos ROCEEH Out Of Africa (ROAD) (CC BY-SA 4.0) ha jugado un
 papel esencial en el desarrollo de varios de los materiales gráficos
 (<http://www.roceeh.org>). Se reconoce y agradece el trabajo de los
@@ -235,31 +241,36 @@ variación de O18 a lo largo del Cuaternario. La base de datos de Spratt
 and Lisiecki ([2016](#ref-spratt_late_2016)) ha sido empleado para
 generar la curva de variaciones del nivel del mar.
 
-## Información de acceso y licencia
+## Política de actualización
 
-**Licencia:**  
-Los datos y códigos se hacen disponibles bajo una licencia **Non
-Commercial 4.0 International (CC BY-NC 4.0)**.  
-Para más detalles ver el archivo [**License**](License.md).
+Como se ha mencionado anteriormente en la introducción, una ventaja de
+los repositorios en línea es que se pueden actualizar periódicamente
+para garantizar que la información esté al día. En el campo de la
+arqueología del paleolítico esto resulta clave, ya que nuevos
+descubrimientos pueden resultar en la revisión o desarrollo de nuevos
+modelos cronoculturales (o agregar yacimientos a un período), en los
+mapas actuales seguramente faltan yacimientos arqueológicos (serán
+añadidos progresivamente), puede ser necesario generar nuevo material
+gráfico para diferentes épocas, etc.
 
-## Información sobre los datos empleados para la elaboración del material
+Este repositorio utiliza una numeración de versiones de dos dígitos, en
+el formato: `v.a.b`. Siendo:
 
-Buena parte de los mapas han sido generados con bases de datos de
-producción propia reunidas a lo largo de los años. Sin embargo, muchas
-de estas bases de datos están incompletas (con ausencia de yacimientos).
-Tal y como se indica en la política de actualizacioones, estas bases de
-datos se irán completando con el pasod el tiempo.
+- **v** = versión.  
+- **a** = cambios importantes.  
+- **b** = cambios menores.
 
-En el caso de los yacimientos Solutrenses, se ha empleado una versión
-modificada de la base de datos CRC806-E1 ([Maier and Zimmermann,
-2015](#ref-maier_crc806-e1_2015)). La atribución está presente en todo
-material gráfico generado usando esta base de datos.
+**Los cambios importantes** se definen como acciones que implican la
+reestructuración del repositorio (cambios en las carpetas y
+subcarpetas), la adición de nuevo material gráfico o la adición de
+nuevos conjuntos de datos.
 
-La base de datos **ROAD** se ha citado siempre que se ha empleado
-(<https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php>).  
-Este uso aparece indicado en los materiales gráficos creados en
-cumplimiento con los términos y condiciones de servicio:  
-(<https://www.roceeh.uni-tuebingen.de/roadweb/smarty_data_use_policy.php?asMsgWin=1>).
+**Los cambios menores** se definen como acciones que incluyen la
+expansión de conjuntos de datos existentes, optimización del código,
+corrección de errores de análisis (incluida la ortografía), cambios en
+el material gráfico existente (color, texto, mapas base, etc.), cambios
+en los títulos de materiales gráficos, adición de referencias o mejora
+del archivo Readme.
 
 ## Software empleado
 
@@ -276,6 +287,13 @@ Recualificacion del sistema universitario español bajo un contrato
 postdoctoral Margarita Salas (**CA1/RSUE/2021-00743**), financiado a
 través del *Plan Español de Recuperación Transformación y Resiliencia* y
 administrado por la Universidad Autónoma de Madrid.
+
+## Información de acceso y licencia
+
+**Licencia:**  
+Los datos y códigos se hacen disponibles bajo una licencia **Non
+Commercial 4.0 International (CC BY-NC 4.0)**.  
+Para más detalles ver el archivo [**License**](License.md).
 
 # Bibliografía (*References*)
 
