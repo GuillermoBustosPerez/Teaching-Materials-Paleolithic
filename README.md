@@ -150,7 +150,13 @@ Multiple references have been consulted in order to generate the graphic
 materials here present. these references can be consulted in the file
 [**Bibliography**](Bibliography.md)
 
-# **Versión en español**
+</div>
+
+<div align="center">
+
+# Versión en español\*\*
+
+</div>
 
 ## Información General
 
@@ -159,6 +165,8 @@ materials here present. these references can be consulted in the file
 Epipaleolithic and Mesolithic  
 **Fecha:** 2024  
 **Versión actual:** v.1.0
+
+<div align="justify">
 
 ## Introducción
 
