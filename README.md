@@ -1,4 +1,8 @@
+<div align="center">
+
 # **English version**
+
+</div>
 
 ## General Information
 
