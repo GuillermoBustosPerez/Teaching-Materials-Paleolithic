@@ -92,7 +92,7 @@ ggmap(Ib.Pen) +
   guides(colour = guide_legend(nrow = 2)) +
   ggtitle("Coexistance between Acheulean and Early Middle Paleolithic") +
   theme(
-    legend.position = c(0.6, 0),
+    legend.position = c(0.63, 0),
     plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
     legend.title = element_blank(),
     legend.text = element_text(size = 13.5, color = "black")
