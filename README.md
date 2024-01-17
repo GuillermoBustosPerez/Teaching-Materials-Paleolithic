@@ -84,12 +84,13 @@ All the graphical materials from this repository have been generated
 with free software. The datasets are stored in OpenOffice or LibreOffice
 (<https://es.libreoffice.org/>) calculator format files.
 
-Workflow and code have been developed in RStudio using the R programming
-language. The package `tidyverse v2.0.0` ([Wickham et al.,
-2019](#ref-wickham_welcome_2019)) has been employed extensively to
-process and muggle most of the data sets. The package `ggmap v.4.0.0`
-([Kahle and Wickham, 2013](#ref-kahle_ggmap_2013)) has been employed for
-the development of most maps.
+Workflow and code have been developed in RStudio ([Rs. Team,
+2019](#ref-rstudio_team_rstudio_2019)) using the R programming language
+([R. C. Team, 2019](#ref-r_core_team_r_2019)). The package `tidyverse`
+([Wickham et al., 2019](#ref-wickham_welcome_2019)) has been employed
+extensively to process and muggle most of the data sets. The package
+`ggmap` ([Kahle and Wickham, 2013](#ref-kahle_ggmap_2013)) has been
+employed for the development of most maps.
 
 ## Updating policies
 
@@ -299,6 +300,20 @@ V-20150313. Collaborative Research Centre.
 Spratt, R.M., Lisiecki, L.E., 2016. A Late Pleistocene sea level stack.
 Climate of the Past 12, 1079–1092.
 <https://doi.org/10.5194/cp-12-1079-2016>
+
+</div>
+
+<div id="ref-r_core_team_r_2019" class="csl-entry">
+
+Team, R.C., 2019. [R: A language and environment for statistical
+computing](https://www.R-project.org/).
+
+</div>
+
+<div id="ref-rstudio_team_rstudio_2019" class="csl-entry">
+
+Team, Rs., 2019. [RStudio: Integrated Development for
+R](http://www.rstudio.com/).
 
 </div>
 
