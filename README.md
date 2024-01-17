@@ -214,7 +214,7 @@ La v.1.0 de este repositorio se centra en los cursos impartidos durante
 ese periodo (haciendo especial énfasis en la Península Ibérica).
 
 Los materiales gráficos pueden encontrarse en la carpeta
-[**Images**](Images-español)
+[**Images-español**](Images-español)
 
 ## Bases de datos externas
 
@@ -243,6 +243,31 @@ empleado el dataset Lisiecki and Raymo
 variación de O18 a lo largo del Cuaternario. La base de datos de Spratt
 and Lisiecki ([2016](#ref-spratt_late_2016)) ha sido empleado para
 generar la curva de variaciones del nivel del mar.
+
+## Software empleado
+
+Todos los materiales gráficos de este repositorio han sido generados con
+software libre. Los conjuntos de datos se almacenan en archivos de tipo
+calculadora de OpenOffice o LibreOffice (<https://es.libreoffice.org/>).
+
+El flujo de trabajo y el código se han desarrollado en RStudio ([Rs.
+Team, 2019](#ref-rstudio_team_rstudio_2019)) utilizando el lenguaje de
+programación R ([R. C. Team, 2019](#ref-r_core_team_r_2019)). El paquete
+`tidyverse` ([Wickham et al., 2019](#ref-wickham_welcome_2019)) se ha
+utilizado ampliamente para procesar y manipular la mayoría de los
+conjuntos de datos. El paquete `ggmap` ([Kahle and Wickham,
+2013](#ref-kahle_ggmap_2013)) se ha utilizado para el desarrollo de la
+mayoría de los mapas. Los diferentes archivos de texto se han generado
+usando `R Markdown` ([Baumer and Udwin, 2015](#ref-baumer_r_2015)) o
+`Bookdown` ([Xie, 2016](#ref-xie_bookdown_2016)).
+
+## Financiación
+
+El presente repositorio ha sido hecho posible gracias al Programa
+Recualificacion del sistema universitario español bajo un contrato
+postdoctoral Margarita Salas (**CA1/RSUE/2021-00743**), financiado a
+través del *Plan Español de Recuperación Transformación y Resiliencia* y
+administrado por la Universidad Autónoma de Madrid.
 
 ## Criterios de actualización y versionado
 
@@ -275,37 +300,14 @@ cambios en el material gráfico existente (color, texto, mapas base,
 etc.), cambios en los títulos de materiales gráficos, adición de
 referencias/bibliografía o mejora del archivo Readme.
 
-## Software empleado
-
-Todos los materiales gráficos de este repositorio han sido generados con
-software libre. Los conjuntos de datos se almacenan en archivos de tipo
-calculadora de OpenOffice o LibreOffice (<https://es.libreoffice.org/>).
-
-El flujo de trabajo y el código se han desarrollado en RStudio ([Rs.
-Team, 2019](#ref-rstudio_team_rstudio_2019)) utilizando el lenguaje de
-programación R ([R. C. Team, 2019](#ref-r_core_team_r_2019)). El paquete
-`tidyverse` ([Wickham et al., 2019](#ref-wickham_welcome_2019)) se ha
-utilizado ampliamente para procesar y manipular la mayoría de los
-conjuntos de datos. El paquete `ggmap` ([Kahle and Wickham,
-2013](#ref-kahle_ggmap_2013)) se ha utilizado para el desarrollo de la
-mayoría de los mapas. Los diferentes archivos de texto se han generado
-usando `R Markdown` ([Baumer and Udwin, 2015](#ref-baumer_r_2015)) o
-`Bookdown` ([Xie, 2016](#ref-xie_bookdown_2016)).
-
-## Financiación
-
-El presente repositorio ha sido hecho posible gracias al Programa
-Recualificacion del sistema universitario español bajo un contrato
-postdoctoral Margarita Salas (**CA1/RSUE/2021-00743**), financiado a
-través del *Plan Español de Recuperación Transformación y Resiliencia* y
-administrado por la Universidad Autónoma de Madrid.
-
 ## Información de acceso y licencia
 
 **Licencia:**  
 Los datos y códigos se hacen disponibles bajo una licencia **Non
 Commercial 4.0 International (CC BY-NC 4.0)**.  
 Para más detalles ver el archivo [**License**](License.md).
+
+![](Images-español/License.png)
 
 # Bibliografía (*References*)
 
