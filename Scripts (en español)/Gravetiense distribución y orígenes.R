@@ -122,7 +122,6 @@ ggsave(
 
 
 #### Origen policéntrico del gravetiense ####
-
 Poly.Centr.Grav <- Grav.Sites %>% mutate(
   Centers = case_when(
     latitude > 41.35 & latitude < 47 &
@@ -199,6 +198,49 @@ ggsave(
   device = "jpg",
   dpi = 1200,
   width = 21,
+  height = 14,
+  units = "cm"
+)
+
+# Versión 2 del mapa
+ggmap(Europe.Map2) +
+  theme_map() +
+  geom_point(data = Poly.Centr.Grav,
+             aes(longitude, latitude, shape = Centers, fill = Centers, alpha = Centers, size =  Centers), 
+             color  = "black") +
+  scale_shape_manual(values = c(22, 23, 24, 25, 22, 23, 21),
+                     name = "Origen\npolicéntrico\ndel Gravetiense\n31 - 25 Ka") +
+  scale_alpha_manual(values = c(1, 1, 1, 1, 1, 1, 0.65),
+                     name = "Origen\npolicéntrico\ndel Gravetiense\n31 - 25 Ka") +
+  scale_size_manual(values = c(5, 5, 5, 5, 5, 5, 3.75),
+                    name = "Origen\npolicéntrico\ndel Gravetiense\n31 - 25 Ka") +
+  scale_fill_manual(values = c(
+    "darkgreen",
+    "olivedrab4", 
+    "darkolivegreen4",
+    "springgreen4",
+    "springgreen3", 
+    "olivedrab2",
+    "darkgray"),
+    name = "Origen\npolicéntrico\ndel Gravetiense\n31 - 25 Ka") +
+  
+  guides(fill = guide_legend(ncol = 1),
+         shape = guide_legend(ncol = 1)) +
+  
+  geom_label(aes(x = -1, y = 35.2, label = "Maier & Zimmerman, CRC806-E1 Gravettian-Sites Database V-20160219"),
+             color = "black", fill = "white", size = 2, alpha = 0.5) +
+  
+  theme(
+    legend.position = "right",
+    legend.title = element_text(face = "bold", size = 13, hjust = 0),
+    legend.text = element_text(size = 9.5))
+
+ggsave(
+  "Gravetiense origen policéntricov2.jpg",
+  path = "Images-español",
+  device = "jpg",
+  dpi = 1200,
+  width = 27,
   height = 14,
   units = "cm"
 )
