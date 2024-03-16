@@ -131,7 +131,7 @@ ggsave(
   units = "cm"
 )
 
-#### Szeletiense origin of the Solutrean #####
+#### Szeletian origin of the Solutrean #####
 load("Maps/Europe & Near East.RData")
 
 Szeletian.Origin <- rbind(
