@@ -133,3 +133,58 @@ ggsave(
   height = 18,
   units = "cm"
 )
+
+#### Origen Szeletiense del Solutrense #####
+load("Maps/Europe & Near East.RData")
+
+Szeletian.Origin <- rbind(
+  Aterian.Origin,
+  readODS::read_ods("Datasets/European-Transitional-Industries.ods", sheet = 1) %>% 
+    filter(Complex == "Szeletiense") %>% select(-c(type)) %>% 
+    rename(site = locality,
+           Complejo = Complex))
+ 
+Szeletian.Origin <- Szeletian.Origin %>% filter(Complejo != "Ateriense") %>% 
+  mutate(Complejo = factor(Complejo,
+                           levels = c("Solutrense", "Szeletiense",
+                                      "Epigravetiense", "Epipaleolítico")))
+
+ggmap(Europe.NearEast) +
+  theme_map() +
+  geom_point(data = Szeletian.Origin,
+             aes(longitude, latitude, shape = Complejo, fill = Complejo,
+                 size = Complejo, alpha = Complejo)) +
+  
+  stat_ellipse(data = Szeletian.Origin %>% 
+                 filter(Complejo == "Solutrense" | Complejo == "Szeletiense"),
+               aes(longitude, latitude, color = Complejo), level = 0.99,
+               show.legend = FALSE) +
+  
+  scale_fill_manual(values = c("blue", "red", 
+                               "darkolivegreen2", "khaki1")) +
+  scale_color_manual(values = c("blue", "red", 
+                               "darkolivegreen2", "khaki1")) +
+  
+  scale_alpha_manual(values = c(1, 1, 0.55, 0.55)) +
+  scale_size_manual(values = c(4, 4, 2.5, 2.5)) +
+  scale_shape_manual(values = c(23, 23, 22, 22)) +
+  geom_label(aes(x = 15, y = 54, label = "Teoría del origen Szeletiense del Solutrense"),
+             color = "black", fill = "white", size = 5.75, alpha = 0.5, fontface = "bold") +
+  ggtext::geom_richtext(aes(x = 18, y = 30.5, 
+                            label = 
+                              "CRC806-E1 LGM-Sites Database V-20150313 & ROAD Dataset"),
+                        color = "black", fill = "white", size = 2.5, alpha = 0.5) +
+  guides(fill = guide_legend(ncol = 2),
+         color = guide_legend(ncol = 2),
+         shape = guide_legend(ncol = 2)) +
+  theme(
+    legend.title = element_text(size = 13, face = "bold", color = "black"),
+    legend.text = element_text(size = 12, color = "black"))
+
+ggsave(
+  "Images-español/Solutrense Origen. Teoría Szeletiense v1.jpg",
+  device = "jpg",
+  dpi = 1200,
+  width = 25,
+  height = 15,
+  units = "cm")
