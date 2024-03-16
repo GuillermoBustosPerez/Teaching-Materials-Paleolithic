@@ -188,3 +188,51 @@ ggsave(
   width = 25,
   height = 15,
   units = "cm")
+
+# v2 del mapa
+ggmap(Europe.NearEast) +
+  theme_map() +
+  geom_point(data = Szeletian.Origin,
+             aes(longitude, latitude, shape = Complejo, fill = Complejo,
+                 size = Complejo, alpha = Complejo)) +
+  
+  stat_ellipse(data = Szeletian.Origin %>% 
+                 filter(Complejo == "Solutrense" | Complejo == "Szeletiense"),
+               aes(longitude, latitude, color = Complejo), level = 0.99,
+               show.legend = FALSE) +
+  
+  scale_fill_manual(values = c("blue", "red", 
+                               "darkolivegreen2", "khaki1")) +
+  scale_color_manual(values = c("blue", "red", 
+                                "darkolivegreen2", "khaki1")) +
+  
+  scale_alpha_manual(values = c(1, 1, 0.55, 0.55)) +
+  scale_size_manual(values = c(4, 4, 2.5, 2.5)) +
+  scale_shape_manual(values = c(23, 23, 22, 22)) +
+  geom_label(aes(x = 15, y = 54, label = "Teoría del origen Szeletiense del Solutrense"),
+             color = "black", fill = "white", size = 5.75, alpha = 0.5, fontface = "bold") +
+  ggtext::geom_richtext(aes(x = 0, y = 30.5, 
+                            label = 
+                              "CRC806-E1 LGM-Sites Database V-20150313 & ROAD Dataset"),
+                        color = "black", fill = "white", size = 2.5, alpha = 0.5) +
+  ggtext::geom_richtext(aes(x = 18, y = 51, label = "S z e l e t i e n s e"),
+                        angle = 0, fill = "red", size = 5) +
+  
+  ggtext::geom_richtext(aes(x = -1.4, y = 44, label = "S o l u t r e n s e"), 
+                        angle = 45, fill = "blue", size = 5) +
+  
+  ggtext::geom_richtext(aes(x = 18.85, y = 44.4, label = "E p i g r a v e t i e n s e"), 
+                        angle = -40, fill = "darkolivegreen2", size = 2) +
+  
+  ggtext::geom_richtext(aes(x = 30.75, y = 34, label = "E p i p a l e o l í t i c o"),
+                        angle = 0, fill = "gold", size = 2, alpha = 0.5) +
+  
+  theme(legend.position = "none")
+
+ggsave(
+  "Images-español/Solutrense Origen. Teoría Szeletiense v2.jpg",
+  device = "jpg",
+  dpi = 1200,
+  width = 25,
+  height = 15,
+  units = "cm")
