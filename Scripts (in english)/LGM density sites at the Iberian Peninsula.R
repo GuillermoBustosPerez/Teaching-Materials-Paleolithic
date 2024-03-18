@@ -18,8 +18,8 @@ ggmap(S.Ib.Pen) +
         fill = after_stat(level)),
     geom = "polygon", bins = 3, alpha = 0.2) +
   scale_fill_gradient(low = "white", high = "green") +
-  geom_label(aes(x = -1, y = 35.95, label = "Data from: Maier & Zimmerman, CRC806-E1 Gravettian-Sites Database V-20160219"),
-             color = "black", fill = "white", size = 2, alpha = 0.5) +
+  geom_label(aes(x = -2.5, y = 35.95, label = "Data from: Maier & Zimmerman, CRC806-E1 Gravettian-Sites Database V-20160219"),
+             color = "black", fill = "white", size = 3, alpha = 0.5) +
   geom_label(aes(x = -4.5, y = 39, label = "Density of Gravettian sites south of the iberian Peninsula"),
              color = "black", fill = "white", size = 4, alpha = 0.5, fontface = "bold") +
   theme(
@@ -47,8 +47,8 @@ ggmap(S.Ib.Pen) +
         fill = after_stat(level)),
     geom = "polygon", bins = 3, alpha = 0.2) +
   scale_fill_gradient(low = "white", high = "blue") +
-  geom_label(aes(x = -1.75, y = 35.95, label = "Data from: Maier, A., Zimmermann, A. (2015). CRC806-E1 LGM-Sites Database V-20150313"),
-             color = "black", fill = "white", size = 2, alpha = 0.5) +
+  geom_label(aes(x = -2.5, y = 35.95, label = "Data from: Maier, A., Zimmermann, A. (2015). CRC806-E1 LGM-Sites Database V-20150313"),
+             color = "black", fill = "white", size = 3, alpha = 0.5) +
   geom_label(aes(x = -4.5, y = 39, label = "Density of Solutrean sites south of the Iberian Peninsula"),
              color = "black", fill = "white", size = 4, alpha = 0.5, fontface = "bold") +
   theme(
