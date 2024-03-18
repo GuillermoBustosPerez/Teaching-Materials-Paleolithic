@@ -68,17 +68,28 @@ gathered over the years. However, many of these databases are incomplete
 (with missing sites). As indicated in the updating policies, these
 databases will be completed and expanded over time.
 
+Along with the self-gathered datasets, several external datasets have
+been employed to generate the graphic materials. **All external datasets
+used in this repository have been previously published under a Creative
+Commons license**, and their attribution has always been acknowledged.
+
 The ROCEEH Out Of Africa Database (ROAD) (CC BY-SA 4.0) has played an
 important role in the development of several graphic materials
 (<http://www.roceeh.org>). The work of the data contributors and ROAD
 community is gratefully acknowledged.
 
 The “Collaborative Research Centre 806 Database. Our Way to Europe”
-(<https://crc806db.uni-koeln.de/>) provides multiple datasets regariding
+(<https://crc806db.uni-koeln.de/>) provides multiple datasets regarding
 archaeological site distribution. Currently, the CRC806-E1 LGM-Sites
 Database V-20150313 ([Maier and Zimmermann,
-2015](#ref-maier_crc806-e1_2015)) has been instrumental for the
+2015](#ref-maier_crc806-e1_2015)) and the CRC806-E1 Gravettian-Sites
+Database V-20160219 ([Maier and Zimmermann,
+2015](#ref-maier_crc806-e1_2015)) have been instrumental for the
 development of graphic materials related to the Last Glacial Maximum.
+
+In several cases it has been necessary to expand, modify or merge these
+external datasets. In all these occasions, the original authorship has
+allays been acknowledge and reflected nn the output.
 
 For the plotting of climate variation curves, the Lisiecki and Raymo
 ([2005](#ref-lisiecki_pliocene-pleistocene_2005)) dataset has been used
@@ -230,6 +241,12 @@ de estas bases de datos están incompletas (con ausencia de yacimientos).
 Tal y como se indica en la política de actualizacioones, estas bases de
 datos se irán completando con el pasod el tiempo.
 
+Además de lass bases de datos generadas de manera propia, se han
+empleado una serie de bases de datos externas. **Todas las bases de
+datos externas han sido publicadas previamente bajo una licencia
+Creative Commons, y su uso se ha realizado de acuerdo con los
+requerimientos estipulados en dichas licencias**.
+
 La base de datos ROCEEH Out Of Africa (ROAD) (CC BY-SA 4.0) ha jugado un
 papel esencial en el desarrollo de varios de los materiales gráficos
 (<http://www.roceeh.org>). Se reconoce y agradece el trabajo de los
@@ -238,10 +255,16 @@ contribuyentes de datos y de la comunidad ROAD.
 El repositorio del “Collaborative Research Centre 806 Database. Our Way
 to Europe” (<https://crc806db.uni-koeln.de/>) proporciona múltiples
 bases de datos sobre la distribución de sitios arqueológicos. Para la
-presente versión, la Base de Datos CRC806-E1 LGM-Sites V-20150313
-([Maier and Zimmermann, 2015](#ref-maier_crc806-e1_2015)) ha sido
-fundamental para el desarrollo de materiales gráficos relacionados con
-el Último Máximo Glacial.
+presente versión, las bases de datos CRC806-E1 LGM-Sites V-20150313
+([Maier and Zimmermann, 2015](#ref-maier_crc806-e1_2015)) y CRC806-E1
+Gravettian-Sites Database V-20160219 ([Maier and Zimmermann,
+2015](#ref-maier_crc806-e1_2015)) han sido fundamentales para el
+desarrollo delos materiales gráficos relacionados con el Último Máximo
+Glacial.
+
+En múltples casos ha sido necesario revisar, ampliar, fusionar y
+modificar estas bases de datos. En todas dichas ocasiones se ha
+reconocido y reflejado la autoria o autorias originales.
 
 En el caso del desarrollo de las curvas de variaciones climáticas se ha
 empleado el dataset Lisiecki and Raymo
@@ -252,9 +275,10 @@ generar la curva de variaciones del nivel del mar.
 
 ## Bibliografía empleada
 
-Pa la generación de los materiales gráficos de este repositorio se ha
-consultado una amplia variedad de bibliografía. Esta bibliografía puede
-ser consultada en el archivo [**Bibliography**](Bibliography.md)
+Para la generación de los materiales gráficos de este repositorio se ha
+consultado una amplia variedad de referencias bibliográficas. Esta
+bibliografía puede ser consultada en el archivo
+[**Bibliography**](Bibliography.md)
 
 ## Software empleado
 
