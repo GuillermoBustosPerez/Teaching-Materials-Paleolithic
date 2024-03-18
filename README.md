@@ -71,7 +71,7 @@ databases will be completed and expanded over time.
 Along with the self-gathered datasets, several external datasets have
 been employed to generate the graphic materials. **All external datasets
 used in this repository have been previously published under a Creative
-Commons license**, and their attribution has always been acknowledged.
+Commons license, and their attribution has always been acknowledged.**
 
 The ROCEEH Out Of Africa Database (ROAD) (CC BY-SA 4.0) has played an
 important role in the development of several graphic materials
