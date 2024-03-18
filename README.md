@@ -15,7 +15,7 @@ Epipaleolithic and Mesolithic
 Please, in case of using graphic material or original data sets, cite
 as:
 
-    Bustos-Pérez, G. Repository of graphical resources related to Paleolithic, Epipaleolithic and Mesolithic. 2023. v.1.0. doi: 10.5281/zenodo.10835045
+    Bustos-Pérez, G. Repository of graphical resources related to Paleolithic, Epipaleolithic and Mesolithic. 2024. v.1.0. doi: 10.5281/zenodo.10835045
 
 <div align="justify">
 
